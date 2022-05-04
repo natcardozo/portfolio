@@ -1,0 +1,50 @@
+.repositorios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem auto;
+    max-width: 1200px;
+}
+
+.repositorio {
+    box-sizing: border-box;
+    cursor: initial;
+    display: block;
+    filter: grayscale(100%);
+    padding: 15px;
+    opacity: .9;
+    text-align: center;
+    transition: .5s;
+    width: 380px;
+}
+
+.repositorio:hover {
+    background-color: #a6a6a650;
+    border-radius: 10px;
+    filter: grayscale(0%);
+    opacity: 1;
+    transition: .5s;
+}
+
+.repositorio__imagem {
+    border: 1px solid #a6a6a650;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00000050;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.repositorio__link {
+    text-decoration: none;
+}
+
+.repositorio__link:visited {
+    color: black;
+}
+
+.repositorio__nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
