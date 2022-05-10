@@ -8,7 +8,6 @@ export default function Repositorios() {
   useEffect(() => {
     axios.get('https://api.github.com/users/natcardozo/repos')
       .then(resposta => {
-        console.log(resposta)
         setRepositorios(resposta.data)
       })
   }, [])

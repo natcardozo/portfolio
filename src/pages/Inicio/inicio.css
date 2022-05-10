@@ -1,0 +1,22 @@
+.inicio {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inicio__repositorios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.inicio__repositorios__titulo {
+    color: #F6F6F6;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.inicio__repositorios__titulo:visited {
+    text-decoration: none;
+}

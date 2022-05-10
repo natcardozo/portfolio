@@ -21,13 +21,14 @@
 .repositorio:hover {
     background-color: #a6a6a650;
     border-radius: 10px;
+    color: #F6F6F6;
     filter: grayscale(0%);
     opacity: 1;
     transition: .5s;
 }
 
 .repositorio__imagem {
-    border: 1px solid #a6a6a650;
+    border: 1px solid #15181850;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #00000050;
     width: 100%;
@@ -46,6 +47,6 @@
 
 .repositorio__nome {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 2.5rem;
 }

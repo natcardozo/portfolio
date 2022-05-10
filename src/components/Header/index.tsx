@@ -1,5 +1,5 @@
 import './header.css';
-import logo from '../../assets/imagens/logo.png';
+import logo from '../../assets/imagens/logo.svg';
 import { Link } from 'react-router-dom';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import HomeIcon from '@mui/icons-material/Home';
