@@ -7,7 +7,7 @@ export default function Inicio() {
         <main className="inicio">
             <section className="inicio__repositorios">
                 <h2>
-                    <Link className="inicio__repositorios__titulo" to="/repositorios">Repositorios:</Link>
+                    <Link className="inicio__repositorios__titulo" to="/repositorios">Repositórios:</Link>
                 </h2>
                 <Repositorios />
             </section>

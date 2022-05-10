@@ -10,7 +10,9 @@ export default function Header() {
     return (
         <header className='header'>
             <div className='header__conteudo'>
-                <img className='header__logo' src={logo} alt="Logo Nathalia Cardozo" />
+                <Link to="/">
+                    <img className='header__logo' src={logo} alt="Logo Nathalia Cardozo" />
+                </Link>
                 <nav className='header__navigation'>
                     <Link className='header__link' to="/">Início</Link>
                     <Link className='header__link' to="/repositorios">Repositórios</Link>
