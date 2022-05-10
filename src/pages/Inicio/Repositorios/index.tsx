@@ -13,7 +13,9 @@ export default function Repositorios() {
     return (
         <div className="inicio__repositorio">
             {repositorios?.map(repositorio => (
-                <img className="inicio__repositorio__imagem" key={repositorio.id} src={`/assets/imagens_repositorios/${repositorio.id}.png`} alt={repositorio.nome} />
+                <a href={repositorio.html_url}>
+                    <img className="inicio__repositorio__imagem" key={repositorio.id} src={`/assets/imagens_repositorios/${repositorio.id}.png`} alt={repositorio.nome} />
+                </a>
             ))}
         </div>
     )
